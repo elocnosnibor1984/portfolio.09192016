@@ -1,0 +1,120 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a {
+  color: #333333;
+  padding-top: 7px;
+  
+}
+
+nav .brand-logo{
+  color:#311b92;
+  font-family: 'Lora', serif;
+}
+
+#mainTitle h1, #mainTitle h5 {
+  color:#311b92;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 280px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.tagline{
+  font-size: 20px;
+  margin-left: 40px;
+}
+.videoDemo{
+  margin-top: 25px;
+  margin-bottom: 60px;
+}
+#about{
+  /*margin-top: 50px;*/
+  /*margin-bottom: 180px;*/
+}
+/*#about img{
+  margin-left: 100px;
+}*/
+
+body{
+  /*font-family: 'Lora', serif;*/
+  letter-spacing: -1px;
+}
+.sub-container{
+  padding: 0 20px 0 20px;
+}
+#subHeading{
+  font-size: 20px;
+  margin-left: 10px;
+  /*margin-bottom: 12px;*/
+  /*color: blue;*/
+}
+#face img{
+  height: 100px;
+  width: 100px;
+  overflow: hidden;
+}
+h4{
+  margin-left: 20px;
+}
+h5{
+  color:black;
+}
+#email{
+  margin-left: 30px;
+}
+.border{
+  /*border-bottom: 2px solid #311b92;*/
+  /*padding: 60px;*/
+  margin-top: 40px;
+  border-radius: 2px;
+}
+#myDescription{
+  padding-top: 20px;
+}
